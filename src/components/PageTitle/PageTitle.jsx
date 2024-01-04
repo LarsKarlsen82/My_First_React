@@ -1,8 +1,10 @@
+// PageTitle.jsx
+import styles from './PageTitle.module.scss';
+
 export const PageTitle = (props) => {
-
-    return (
-
-<h2>{props.pagetitle}</h2>
-    
-    )
-    } 
+  return (
+    <div className={styles.titleContainer}>
+      <h1 className={styles.pageTitle}>{props.pagetitle}</h1>
+    </div>
+  );
+};

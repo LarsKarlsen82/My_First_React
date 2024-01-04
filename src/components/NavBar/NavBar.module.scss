@@ -1,0 +1,29 @@
+/* Style for NavBar component */
+.NavBar {
+    padding: 0;
+  
+    ul {
+      margin: 0;
+      padding: 0;
+      list-style: none; /* Remove default list styles */
+      display: flex; /* Display list items horizontally */
+      justify-content: center;
+      align-items: center;
+  
+      li {
+        margin: 0 10px;
+        cursor: pointer;
+  
+        a {
+          text-decoration: none; /* Remove underline from anchor links */
+          color: blue; /* Set link color */
+  
+          &:hover {
+            text-decoration: none;
+            color: red;
+          }
+        }
+      }
+    }
+  }
+  

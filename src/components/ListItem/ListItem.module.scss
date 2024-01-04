@@ -1,0 +1,17 @@
+/* ListItem.module.scss */
+.listContainer {
+    border: 1px solid black;
+    padding: 10px;
+    list-style: none;
+  }
+  
+  .listItem {
+    color: yellow;
+  }
+
+  .listContainer ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+  

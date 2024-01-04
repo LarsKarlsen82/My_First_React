@@ -2,7 +2,7 @@
 import React from 'react';
 import { PageTitle } from '../PageTitle/PageTitle';
 import { Greeting } from '../Greeting/Greeting';
-import { ListComponent, ListItem } from '../ListItem/ListItem';
+import { ListComponent } from '../ListItem/ListComponent'; // Adjust the path based on your project structure
 
 export const Main = () => {
   const names = ["Heinz", "Anders", "Tanja", "Indo", "Patrick", "Gunnar"];
@@ -21,11 +21,11 @@ export const Main = () => {
         ))}
       </div>
 
-      <div className="list-container">
-      <h1>Min Personlige Liste</h1>
-      <ListComponent title="Mine Livretter" listItems={favoriteFoods} />
-      <ListComponent title="Mine Favoritfilm" listItems={favoriteMovies} />
-    </div>
+      <div className="listContainer">
+        <h1>Min Personlige Liste</h1>
+        <ListComponent title="Mine Livretter" listItems={favoriteFoods} />
+        <ListComponent title="Mine Favoritfilm" listItems={favoriteMovies} />
+      </div>
     </main>
   );
 };
