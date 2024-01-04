@@ -2,16 +2,15 @@ import { PageTitle } from "../PageTitle/PageTitle";
 import { Greeting } from "../Greeting/Greeting";
 
 export const Main = () => {
+    const names = ["Heinz", "Anders", "Tanja", "Indo", "Patrick","Gunnar"];
 
     return (
 
         <main>
-<PageTitle pagetitle="Velkommen til min side som er styret af props" />
-<Greeting name="Heinz" />
-<Greeting name="Anders" />
-<Greeting name="Tanja" />
-<Greeting name="Indo" />
-<Greeting name="Patrick" />
+    <PageTitle pagetitle="Velkommen til min side som er styret af props" />
+    {names.map((name, index) => (
+        <Greeting key={index} name={name} />
+      ))}
 
         </main>
     
