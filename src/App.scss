@@ -4,18 +4,15 @@
 //   padding: 0;
 // }
 
-// /* Apply a global font and background color */
-// body {
-//   font-family: 'Arial', sans-serif;
-//   background-color: #f0f0f0;
-//   border: 2px solid red; /* Add a red border around the entire page */
-//   box-sizing: border-box; /* Include border in the total width/height */
-//   display: flex;
-//   flex-direction: column; /* Set the flex container to column direction */
-//   justify-content: center;
-//   align-items: center;
-//   height: 100vh; /* Make the body take up the full viewport height */
-// }
+/* Apply a global font and background color */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f0f0;
+  border: 2px solid red; /* Add a red border around the entire page */
+  box-sizing: border-box; /* Include border in the total width/height */
+
+  height: 160vh; /* Make the body take up the full viewport height */
+}
 
 // /* Style for Header component */
 // .Header {
