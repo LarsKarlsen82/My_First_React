@@ -1,17 +1,11 @@
-// /* Reset some default styles */
-// body, h1, h2, h3, p, ul, li {
-//   margin: 0;
-//   padding: 0;
-// }
 
 /* Apply a global font and background color */
 body {
   font-family: 'Arial', sans-serif;
-  background-color: #f0f0f0;
-  border: 2px solid red; /* Add a red border around the entire page */
-  box-sizing: border-box; /* Include border in the total width/height */
-
-  height: 160vh; /* Make the body take up the full viewport height */
+  background-color: #f0f0f0; /* Removed the extra dot before #f0f0f0 */
+  border: 2px solid red;
+  box-sizing: border-box;
+  height: 300vh;
 }
 
 // /* Style for Header component */
@@ -26,51 +20,21 @@ body {
 //   }
 
 //   /* New styles for making it a centered box with a border */
-//   width: 50%; /* Adjust the width as needed */
-//   margin: 20px auto; /* Center the box horizontally and add some top margin */
-// }
-
-// /* Style for NavBar component */
-// .NavBar {
-//   padding: 0;
-
-//   ul {
-//     margin: auto;
-//     padding: auto;
-//     list-style: none; /* Remove default list styles */
-//     display: flex; /* Display list items horizontally */
-//     justify-content: center;
-//     align-items: center;
-
-//     li {
-//       margin: 0 10px;
-//       cursor: pointer;
-
-//       a {
-//         text-decoration: none; /* Remove underline from anchor links */
-//         color: blue; /* Set link color */
-
-//         &:hover {
-//           text-decoration: none;
-//           color: red;
-//         }
-//       }
-//     }
-//     }
+//   width: 50%;
+//   margin: 20px auto;
 // }
 
 // /* Style for Main component */
 // .Main {
 //   padding: 20px;
 //   text-align: center;
-// }
 
-// .list-container ul {
-//   list-style: none;
-//   padding: 0;
-//   margin: 0;
+//   .list-container ul {
+//     list-style: none;
+//     padding: 0;
+//     margin: 0;
+//   }
 // }
-
 
 // /* Style for Footer component */
 // .Footer {

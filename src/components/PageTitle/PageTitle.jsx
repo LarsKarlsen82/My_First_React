@@ -1,5 +1,5 @@
 // PageTitle.jsx
-import styles from './PageTitle.module.scss';
+import styles from '../../assets/scss/PageTitle.module.scss';
 
 export const PageTitle = (props) => {
   return (
