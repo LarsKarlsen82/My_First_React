@@ -6,6 +6,10 @@ body {
   border: 2px solid red;
   box-sizing: border-box;
   height: 350vh;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  width: 100%; /* Adjust the width as needed */
 }
 
 // /* Style for Header component */
@@ -34,12 +38,4 @@ body {
 //     padding: 0;
 //     margin: 0;
 //   }
-// }
-
-// /* Style for Footer component */
-// .Footer {
-//   background-color: #333;
-//   color: #fff;
-//   padding: 10px;
-//   text-align: center;
 // }
