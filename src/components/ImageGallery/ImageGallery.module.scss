@@ -57,6 +57,10 @@
     color: rgba(51, 51, 51, 0.5); /* Set the color with alpha value for transparency */
     padding: 8px;
     border-radius: 4px;
+    transition: color 0.3s ease-in-out; /* Add transition for color change */
   }
   
+  .closeButton:hover {
+    color: rgba(51, 51, 51, 1); /* Set the color to fully opaque on hover */
+  }
   

@@ -1,5 +1,6 @@
 // Main.jsx
 import React from 'react';
+import Modal from 'react-modal';
 import { PageTitle } from '../PageTitle/PageTitle';
 import { Greeting } from '../Greeting/Greeting';
 import { ListComponent } from '../ListItem/ListComponent';
@@ -25,6 +26,19 @@ const Main = () => {
     // Add more image filenames as needed
   ];
 
+  const galleryImageTexts = [
+    'Chocolate Image',
+    'Code Image',
+    'Coffee Image',
+    'Dog Image',
+    'Guitar Image',
+    'Iceberg Image',
+    'Las Palmas Image',
+    'Nordkraft Image',
+    'Nuuk Image',
+    'Travel Image'
+  ];
+
   return (
     <main style={{ padding: '20px', textAlign: 'center' }}>
       <PageTitle pagetitle="Velkommen til min side som er styret af props" />
@@ -43,9 +57,9 @@ const Main = () => {
       </div>
 
       <div style={{ marginTop: '20px' }}>
-        <h2>Image Gallery:</h2>
-        <ImageGallery images={galleryImages} />
-      </div>
+      <h2>Image Gallery:</h2>
+      <ImageGallery images={galleryImages} imageTexts={galleryImageTexts} />
+    </div>
     </main>
   );
 };
